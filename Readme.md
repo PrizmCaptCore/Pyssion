@@ -1,5 +1,19 @@
 # Pyssion
 
+## 프로젝트 계승 · Project continuity
+
+이 프로젝트는 제가 이전 GitHub 계정 **[CaptCore](https://github.com/CaptCore)**에서 개발하던
+**[CaptCore/Pyssion](https://github.com/CaptCore/Pyssion)**을 이어가는 레포입니다.
+이전 계정에 접근할 수 없게 되어 현재 계정 **[PrizmCaptCore](https://github.com/PrizmCaptCore)**의
+**[PrizmCaptCore/Pyssion](https://github.com/PrizmCaptCore/Pyssion)**에서 개발을 이어갑니다.
+기존 코드와 커밋 이력, MIT 라이선스 및 원저작자 표기를 유지합니다.
+
+I originally developed Pyssion under my previous GitHub account, `CaptCore`.
+After losing access to that account, I am continuing the project here under `PrizmCaptCore`,
+preserving the existing code, commit history, original authorship, and MIT license.
+
+---
+
 `Pyssion.run()`
 
 1. **Pack your code!**
