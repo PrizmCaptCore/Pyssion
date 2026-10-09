@@ -3,7 +3,7 @@ from pathlib import Path
 import os
 import shlex
 import inspect
-from pyssion.manager.resource import ResourceConfigurator
+from pyssion.legacy.manager.resource import ResourceConfigurator
 
 _cached_env = None
 

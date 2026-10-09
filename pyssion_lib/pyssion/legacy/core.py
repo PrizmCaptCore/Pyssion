@@ -1,14 +1,14 @@
-from pyssion.manager.namespace import Pyssion_Namespace
-from pyssion.handler.handler_main import origin_pyssion
-from pyssion.container.creator import KubernetesJobCreator
-from pyssion.handler.error_handler import error_wrapper
-from pyssion.manager.client import KubernetesClientManager
-from pyssion.manager.cleaner import KubernetesJobCleaner
-from pyssion.manager.logger import KubernetesLogStreamer
-from pyssion.manager.envloader import get_env
-from pyssion.saver.minio_client import MinioUploader
-from pyssion.container.builder import PVCBuilder, PVCManager
-from pyssion.container.util import delete_pvc_and_pv, status_print
+from pyssion.legacy.manager.namespace import Pyssion_Namespace
+from pyssion.legacy.handler.handler_main import origin_pyssion
+from pyssion.legacy.container.creator import KubernetesJobCreator
+from pyssion.legacy.handler.error_handler import error_wrapper
+from pyssion.legacy.manager.client import KubernetesClientManager
+from pyssion.legacy.manager.cleaner import KubernetesJobCleaner
+from pyssion.legacy.manager.logger import KubernetesLogStreamer
+from pyssion.legacy.manager.envloader import get_env
+from pyssion.legacy.saver.minio_client import MinioUploader
+from pyssion.legacy.container.builder import PVCBuilder, PVCManager
+from pyssion.legacy.container.util import delete_pvc_and_pv, status_print
 
 class Pyssion(origin_pyssion):
     def __init__(self):

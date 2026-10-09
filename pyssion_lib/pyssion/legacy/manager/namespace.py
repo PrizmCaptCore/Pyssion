@@ -12,7 +12,7 @@ from pathlib import Path
 # import base64
 # from kubernetes import client
 
-# from pyssion.saver.pyssion_ignore import load_ignore_patterns,should_ignore
+# from pyssion.legacy.saver.pyssion_ignore import load_ignore_patterns,should_ignore
 
 def generate_random_string():
     return ''.join(random.choice(string.ascii_lowercase) for _ in range(6))

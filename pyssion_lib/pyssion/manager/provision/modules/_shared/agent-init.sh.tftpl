@@ -1,0 +1,5 @@
+#!/bin/sh
+# Boots a fresh machine into a Pyssion node. The node needs outbound access to the manager only.
+command -v curl >/dev/null || (apt-get update && apt-get install -y curl) || dnf install -y curl
+curl -fsSL "${server_url}/agent/install.sh" \
+  | PYSSION_NODE_NAME="${name}" PYSSION_ORPHAN_CMD="shutdown -h now" sh -s -- "${join_token}"
